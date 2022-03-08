@@ -1,0 +1,111 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 737878736899 (0xabcd000003)
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=TW, ST=Tapei, L=Tapei, O=PracNet, OU=Pratical TLS, CN=Root CA
+        Validity
+            Not Before: Mar  8 16:50:46 2022 GMT
+            Not After : Mar  8 16:50:46 2023 GMT
+        Subject: C=TW, ST=Taipei, L=Taipei, O=Practical Networking, CN=*.bilbo.com
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:c5:b5:2a:e8:d1:b0:8b:9e:0a:3b:e1:70:6d:3c:
+                    70:31:91:af:a4:18:af:91:ca:ef:60:31:ec:bd:15:
+                    8b:06:3d:20:4f:de:0a:06:39:23:b7:61:aa:76:8b:
+                    71:17:98:e1:09:b5:6f:0d:7d:a3:4a:1e:11:12:99:
+                    ae:49:35:dc:5a:9d:b2:78:d1:a9:22:5b:8b:a6:e5:
+                    bd:3d:06:6a:38:22:4b:60:2d:62:d8:7d:51:13:31:
+                    2b:79:92:d6:35:d5:74:2f:cf:e5:5b:fd:22:af:e5:
+                    8c:f6:3c:c7:a7:5b:4f:bc:41:82:5f:77:22:85:d9:
+                    3a:a9:8d:9e:d9:a2:79:1a:39:b7:2d:c4:12:f9:fc:
+                    e6:af:e8:36:10:71:f2:c8:f4:d9:d7:ce:df:42:68:
+                    69:30:32:d8:e3:a5:6c:6e:fb:9a:da:d2:5d:27:73:
+                    ec:af:b9:56:29:9c:d6:76:c8:da:07:7b:7d:42:4e:
+                    e6:e3:f7:27:cb:a7:d0:9c:d9:ce:ac:a7:dc:21:1d:
+                    ac:7d:7d:b4:aa:f3:8c:84:2a:18:9b:24:f8:bf:04:
+                    c6:99:aa:6e:f4:b6:a9:71:84:0a:f9:52:87:40:43:
+                    43:10:0d:ea:f1:74:b4:dc:ba:e3:de:c8:e3:9a:fd:
+                    2f:db:6a:a3:13:6f:b0:41:66:65:af:6a:9e:69:72:
+                    d7:33
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            X509v3 Subject Key Identifier: 
+                B9:EB:87:AA:66:EE:DE:6A:29:23:FB:21:8D:57:1B:6B:2E:30:2E:17
+            X509v3 Authority Key Identifier: 
+                DirName:/C=TW/ST=Tapei/L=Tapei/O=PracNet/OU=Pratical TLS/CN=Root CA
+                serial:E3:3E:1D:D3:9D:94:31:D1
+
+            X509v3 Key Usage: 
+                Digital Signature, Key Encipherment
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication
+            X509v3 Subject Alternative Name: 
+                DNS:bilbo.com, DNS:en.admin.bilbo.com, DNS:fr.admin.bilbo.com, DNS:es.admin.bilbo.com, DNS:bilbobaggins.com, DNS:*.bilbobaggins.com, DNS:bagend.com, DNS:*.bagend.com, DNS:localhost
+    Signature Algorithm: sha256WithRSAEncryption
+         95:99:27:f9:2f:18:ac:35:ab:4b:e8:a8:f8:67:3a:9d:d2:ad:
+         65:34:17:dc:d8:9d:0a:ee:8c:bc:8a:2e:7c:45:03:54:ce:34:
+         ec:c8:a5:a8:0f:57:fe:31:3f:a2:df:be:86:b6:75:db:80:10:
+         6e:d1:69:df:f3:58:12:c3:6f:c3:a8:32:f6:0d:e0:3d:3f:24:
+         7a:3f:02:41:a9:ed:67:74:3d:6f:e7:96:a8:4f:40:ab:4f:00:
+         7c:64:cb:63:5d:81:44:5c:0a:9b:a8:dd:9f:66:22:b3:af:91:
+         13:37:86:79:ff:c4:0f:02:86:b5:23:fe:74:e4:6b:ad:8d:2b:
+         de:e7:4e:a3:2b:05:be:18:e8:09:c5:77:ab:1e:34:0c:7b:70:
+         e1:f0:ea:76:40:17:b4:fd:57:16:6c:64:f4:99:e6:19:36:c8:
+         ee:f5:59:c8:1f:4c:3c:86:29:37:1f:e8:55:94:d3:d8:3e:62:
+         9d:ba:b7:24:0e:34:37:a4:5c:26:1a:26:48:f4:2a:0e:c0:12:
+         84:1d:bf:82:1e:94:ab:d2:c0:73:a8:ce:8e:8f:2f:59:3e:a9:
+         e1:07:bc:4c:ad:d5:5d:64:86:e3:89:02:08:f7:eb:ce:37:25:
+         59:ad:f7:3a:5f:84:85:f5:66:45:e1:7d:6b:bc:09:0e:64:a7:
+         bb:cb:ef:86:33:ef:f4:5e:08:f8:5c:6b:9a:a9:84:61:f6:8b:
+         cb:17:4a:4a:93:38:05:a4:9d:c1:ec:6b:6b:12:40:3b:a7:ba:
+         b4:ce:ab:ba:01:48:28:c8:f7:fb:07:69:a3:37:f8:bf:05:b5:
+         d0:50:ec:7c:70:de:57:7c:17:9a:e2:32:f9:8f:76:67:c1:e0:
+         58:f4:26:d1:21:08:a7:90:5e:b6:48:16:f5:5f:23:98:14:d9:
+         c3:25:6f:a4:bf:b9:d9:2f:f2:2b:04:c1:c5:0e:07:df:47:f0:
+         b9:58:88:47:73:12:a7:62:18:62:d8:a5:3f:5a:3a:c8:54:01:
+         0e:51:b9:3d:91:14:9f:b1:aa:6f:28:43:cb:8e:1d:b7:1d:6d:
+         68:c3:6c:a4:40:49:6e:c4:a2:15:36:81:33:c8:1b:4b:c7:1d:
+         fa:7f:16:ac:a9:41:f8:55:ab:85:ad:d4:98:d8:ac:0f:1d:2d:
+         63:41:68:1f:20:5f:f9:40:92:7c:6a:63:1e:a5:06:ec:65:7c:
+         c2:fd:19:c0:5c:e7:b3:89:6e:fe:ee:d4:d7:4a:11:73:7f:ff:
+         71:c6:3a:95:c7:47:d0:db:48:aa:be:8d:b6:c9:6f:37:65:4e:
+         58:12:b2:33:de:f5:1b:d1:04:99:14:00:3b:9d:24:3c:e9:a0:
+         8b:c4:9f:f0:b1:41:c2:67
+-----BEGIN CERTIFICATE-----
+MIIFwzCCA6ugAwIBAgIGAKvNAAADMA0GCSqGSIb3DQEBCwUAMGgxCzAJBgNVBAYT
+AlRXMQ4wDAYDVQQIDAVUYXBlaTEOMAwGA1UEBwwFVGFwZWkxEDAOBgNVBAoMB1By
+YWNOZXQxFTATBgNVBAsMDFByYXRpY2FsIFRMUzEQMA4GA1UEAwwHUm9vdCBDQTAe
+Fw0yMjAzMDgxNjUwNDZaFw0yMzAzMDgxNjUwNDZaMGQxCzAJBgNVBAYTAlRXMQ8w
+DQYDVQQIDAZUYWlwZWkxDzANBgNVBAcMBlRhaXBlaTEdMBsGA1UECgwUUHJhY3Rp
+Y2FsIE5ldHdvcmtpbmcxFDASBgNVBAMMCyouYmlsYm8uY29tMIIBIjANBgkqhkiG
+9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxbUq6NGwi54KO+FwbTxwMZGvpBivkcrvYDHs
+vRWLBj0gT94KBjkjt2GqdotxF5jhCbVvDX2jSh4REpmuSTXcWp2yeNGpIluLpuW9
+PQZqOCJLYC1i2H1REzEreZLWNdV0L8/lW/0ir+WM9jzHp1tPvEGCX3cihdk6qY2e
+2aJ5Gjm3LcQS+fzmr+g2EHHyyPTZ187fQmhpMDLY46Vsbvua2tJdJ3Psr7lWKZzW
+dsjaB3t9Qk7m4/cny6fQnNnOrKfcIR2sfX20qvOMhCoYmyT4vwTGmapu9LapcYQK
++VKHQENDEA3q8XS03Lrj3sjjmv0v22qjE2+wQWZlr2qeaXLXMwIDAQABo4IBdTCC
+AXEwCQYDVR0TBAIwADAdBgNVHQ4EFgQUueuHqmbu3mopI/shjVcbay4wLhcwgYIG
+A1UdIwR7MHmhbKRqMGgxCzAJBgNVBAYTAlRXMQ4wDAYDVQQIDAVUYXBlaTEOMAwG
+A1UEBwwFVGFwZWkxEDAOBgNVBAoMB1ByYWNOZXQxFTATBgNVBAsMDFByYXRpY2Fs
+IFRMUzEQMA4GA1UEAwwHUm9vdCBDQYIJAOM+HdOdlDHRMAsGA1UdDwQEAwIFoDAT
+BgNVHSUEDDAKBggrBgEFBQcDATCBnQYDVR0RBIGVMIGSggliaWxiby5jb22CEmVu
+LmFkbWluLmJpbGJvLmNvbYISZnIuYWRtaW4uYmlsYm8uY29tghJlcy5hZG1pbi5i
+aWxiby5jb22CEGJpbGJvYmFnZ2lucy5jb22CEiouYmlsYm9iYWdnaW5zLmNvbYIK
+YmFnZW5kLmNvbYIMKi5iYWdlbmQuY29tgglsb2NhbGhvc3QwDQYJKoZIhvcNAQEL
+BQADggIBAJWZJ/kvGKw1q0voqPhnOp3SrWU0F9zYnQrujLyKLnxFA1TONOzIpagP
+V/4xP6Lfvoa2dduAEG7Rad/zWBLDb8OoMvYN4D0/JHo/AkGp7Wd0PW/nlqhPQKtP
+AHxky2NdgURcCpuo3Z9mIrOvkRM3hnn/xA8ChrUj/nTka62NK97nTqMrBb4Y6AnF
+d6seNAx7cOHw6nZAF7T9VxZsZPSZ5hk2yO71WcgfTDyGKTcf6FWU09g+Yp26tyQO
+NDekXCYaJkj0Kg7AEoQdv4IelKvSwHOozo6PL1k+qeEHvEyt1V1khuOJAgj36843
+JVmt9zpfhIX1ZkXhfWu8CQ5kp7vL74Yz7/ReCPhca5qphGH2i8sXSkqTOAWkncHs
+a2sSQDunurTOq7oBSCjI9/sHaaM3+L8FtdBQ7Hxw3ld8F5riMvmPdmfB4Fj0JtEh
+CKeQXrZIFvVfI5gU2cMlb6S/udkv8isEwcUOB99H8LlYiEdzEqdiGGLYpT9aOshU
+AQ5RuT2RFJ+xqm8oQ8uOHbcdbWjDbKRASW7EohU2gTPIG0vHHfp/FqypQfhVq4Wt
+1JjYrA8dLWNBaB8gX/lAknxqYx6lBuxlfML9GcBc57OJbv7u1NdKEXN//3HGOpXH
+R9DbSKq+jbbJbzdlTlgSsjPe9RvRBJkUADudJDzpoIvEn/CxQcJn
+-----END CERTIFICATE-----
