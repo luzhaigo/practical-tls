@@ -1,0 +1,22 @@
+{
+  "name": "practical-tls",
+  "version": "1.0.0",
+  "description": "tls learning",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luzhaigo/practical-tls.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luzhaigo/practical-tls/issues"
+  },
+  "homepage": "https://github.com/luzhaigo/practical-tls#readme",
+  "dependencies": {
+    "glob": "^7.2.0"
+  }
+}
