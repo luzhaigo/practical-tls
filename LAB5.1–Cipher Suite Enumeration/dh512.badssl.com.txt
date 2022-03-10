@@ -1,0 +1,42 @@
+Starting Nmap 7.92 ( https://nmap.org ) at 2022-03-10 09:25 UTC
+Nmap scan report for dh512.badssl.com (104.154.89.105)
+Host is up (0.040s latency).
+rDNS record for 104.154.89.105: 105.89.154.104.bc.googleusercontent.com
+
+PORT    STATE SERVICE
+443/tcp open  https
+| ssl-enum-ciphers: 
+|   TLSv1.0: 
+|     ciphers: 
+|       TLS_DHE_RSA_WITH_AES_128_CBC_SHA (dh 512) - C
+|       TLS_DHE_RSA_WITH_AES_256_CBC_SHA (dh 512) - B
+|     compressors: 
+|       NULL
+|     cipher preference: server
+|     warnings: 
+|       Key exchange (dh 512) of lower strength than certificate key
+|   TLSv1.1: 
+|     ciphers: 
+|       TLS_DHE_RSA_WITH_AES_128_CBC_SHA (dh 512) - C
+|       TLS_DHE_RSA_WITH_AES_256_CBC_SHA (dh 512) - B
+|     compressors: 
+|       NULL
+|     cipher preference: server
+|     warnings: 
+|       Key exchange (dh 512) of lower strength than certificate key
+|   TLSv1.2: 
+|     ciphers: 
+|       TLS_DHE_RSA_WITH_AES_128_GCM_SHA256 (dh 512) - C
+|       TLS_DHE_RSA_WITH_AES_256_GCM_SHA384 (dh 512) - B
+|       TLS_DHE_RSA_WITH_AES_128_CBC_SHA256 (dh 512) - C
+|       TLS_DHE_RSA_WITH_AES_128_CBC_SHA (dh 512) - C
+|       TLS_DHE_RSA_WITH_AES_256_CBC_SHA256 (dh 512) - B
+|       TLS_DHE_RSA_WITH_AES_256_CBC_SHA (dh 512) - B
+|     compressors: 
+|       NULL
+|     cipher preference: server
+|     warnings: 
+|       Key exchange (dh 512) of lower strength than certificate key
+|_  least strength: C
+
+Nmap done: 1 IP address (1 host up) scanned in 10.70 seconds
