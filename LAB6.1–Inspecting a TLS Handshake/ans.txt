@@ -1,0 +1,66 @@
+5. source IP: 127.0.0.1 server IP: 127.0.0.99
+6. 
+Content Type: 20 - Change Cipher Spec : 8, 10
+Content Type: 21 – Alert: 17
+Content Type: 22 – Handshake : 4, 6, 8, 10
+Content Type: 23 – Application Data: 12, 14
+
+7.
+Client Hello: Client Hello (1), 4
+Server Hello: Server Hello (2), 6
+Certificate: Certificate, 6
+Server Hello Done: Server Hello Done, 6
+Client Key Exchange: 8
+
+8.
+Version: TLS 1.2 (0x0303), TLS 1.2 (0x0303)
+Random Number: 8377f1ca4c689ee40355e16ac3a399e3aef664b6ef11f3f8c329821055adc158, 11af0830db7584bf7aad505d16e370dc703fdc544b159adb30dbf9c463af852b
+Session ID: 0b2745de0a1b08641adcd0fe61cbc499a6080a059f24feac3393703f151c4b2a, 0f1cf50d513bddaef88c040e7400afc4e07bbc6c16c0fa28d2dd5545b4f2163c
+Cipher Suite: 
+Client: TLS_AES_256_GCM_SHA384 (0x1302), TLS_CHACHA20_POLY1305_SHA256 (0x1303), TLS_AES_128_GCM_SHA256 (0x1301), TLS_DHE_RSA_WITH_AES_256_GCM_SHA384 (0x009f),
+TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256 (0xccaa), TLS_DHE_RSA_WITH_AES_128_GCM_SHA256 (0x009e), TLS_DHE_RSA_WITH_AES_256_CBC_SHA256 (0x006b),
+TLS_DHE_RSA_WITH_AES_128_CBC_SHA256 (0x0067), TLS_DHE_RSA_WITH_AES_256_CBC_SHA (0x0039), TLS_DHE_RSA_WITH_AES_128_CBC_SHA (0x0033),
+TLS_RSA_WITH_AES_256_GCM_SHA384 (0x009d), TLS_RSA_WITH_AES_128_GCM_SHA256 (0x009c), TLS_RSA_WITH_AES_256_CBC_SHA256 (0x003d),
+TLS_RSA_WITH_AES_128_CBC_SHA256 (0x003c), TLS_RSA_WITH_AES_256_CBC_SHA (0x0035), TLS_RSA_WITH_AES_128_CBC_SHA (0x002f), TLS_EMPTY_RENEGOTIATION_INFO_SCSV (0x00ff)
+Server: TLS_RSA_WITH_AES_128_CBC_SHA256 (0x003c)
+
+9.
+- TLS 1.2
+- TLS 1.2
+- TLS_AES_256_GCM_SHA384
+- TLS_RSA_WITH_AES_128_CBC_SHA256
+- Auth: RSA KE: RSA SE: AES_128_CBC HMAC: SHA256
+- 8
+
+10.
+- 2646
+- no
+- 2
+- blue.com, orangeCA
+- orangeCA, orangeCA
+- 
+nb: utcTime: 2021-02-25 18:25:57 (UTC), na: utcTime: 2022-02-25 18:25:57 (UTC)
+nb: utcTime: 2021-02-25 18:25:56 (UTC), na: utcTime: 2031-02-23 18:25:56 (UTC)
+- BasicConstraintsSyntax,   BasicConstraintsSyntax AuthorityKeyIdentifier SubjectKeyIdentifier
+
+11.
+- Encrypted PreMaster: 2188f86a3ab4a6c555e2e6a7ebdf8e095a698f677c125ddcfd0db3e874113e5a627bb9cc…
+- Cipher Text
+- Public Key
+- generate session keys
+
+12.
+- prepare to encry the message
+- cipher text
+- Encrypted Handshake Message
+- Finished Record
+
+13.
+- Content Type: Application Data (23), Version, Length
+- No
+
+14.
+- Content Type: Alert (21), Version, Length
+- Alert Message: Encrypted Alert
+
+15. No
