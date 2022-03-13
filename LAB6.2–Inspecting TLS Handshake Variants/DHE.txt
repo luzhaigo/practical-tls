@@ -1,0 +1,30 @@
+1. 
+- Client Hello
+- Server Hello, Certificate, Server key change, Server hello done
+- Client key change, Change Cipher Spec, Encrypted handshake message
+- Change Cipher Spec, Encrypted handshake message
+
+2. Cipher Suite: TLS_DHE_RSA_WITH_AES_128_CBC_SHA256 (0x0067)
+
+3. Server key change, 
+
+4. Pubkey: 34dd5a6f78eff5c94d9f5006e96472558bb64cfdf23ea0e557403e5d18101472e8453d72…
+
+5. 
+- p: ad107e1e9123a9d0d660faa79559c51fa20d64e5683b9fd1b54b1597b61d0a75e6fa141d…  
+- g: ac4032ef4f2d9ae39df30b5c8ffdac506cdebe7b89998caf74866a08cfe4ffe3a6824a4e…
+
+6. Pubkey: 34dd5a6f78eff5c94d9f5006e96472558bb64cfdf23ea0e557403e5d18101472e8453d72…
+
+7. Signature: 067560dcdafb82b2bfa5e0ab532fb4e963fc3aae7debb87d8cb060a195dd58f6b12b4908…
+
+8. DHE: Pubkey: a6b94ddbd50ccdf860c5b03462d83a4197585789be61c311bcb8112cbc6d9e9e5ead6b2a…
+   RSA: Premaster key with publich key encryption
+
+9. Pubkey: a6b94ddbd50ccdf860c5b03462d83a4197585789be61c311bcb8112cbc6d9e9e5ead6b2a…
+
+10. no  DH PrivateKey
+
+11. no, it is encrypted since it was sent after the Change Cipher Spec
+
+12. yes, because of DH"E"

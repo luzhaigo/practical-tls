@@ -1,0 +1,25 @@
+1. 
+- 4
+- 5
+
+2. 
+- 3
+- 3
+
+3. Certificate, Client key exchange, server hello done
+
+4. Length: 2646, Length: 262, Length: 4
+
+5. 2
+
+6. 1
+
+7. 
+- Session ID: a4ed4c5f12c187a72dfa573e0b34b59783c1c34c257439885e610ed76531c8c9
+- Session ID: 746222175ee47cf4f14f6fe51ad352da4512f542cecf4d285413d7748557257a
+- Session ID: 746222175ee47cf4f14f6fe51ad352da4512f542cecf4d285413d7748557257a
+- Session ID: 746222175ee47cf4f14f6fe51ad352da4512f542cecf4d285413d7748557257a
+
+8. Cipher Suite: TLS_RSA_WITH_AES_256_CBC_SHA256 (0x003d)
+
+9. no, because of RSA key exchange

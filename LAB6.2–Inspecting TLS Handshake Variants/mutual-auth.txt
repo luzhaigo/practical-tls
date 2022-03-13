@@ -1,0 +1,20 @@
+1. 
+- Handshake Protocol: Certificate Request
+- Handshake Protocol: Certificate
+- Handshake Protocol: Certificate Verify
+
+2. 
+- Certificate type: RSA Sign (1), Certificate type: DSS Sign (2), Certificate type: ECDSA Sign (64)
+- 23
+- RDNSequence item: 1 item (id-at-commonName=orangeCA.com)
+
+3.
+- 2
+- RDNSequence item: 1 item (id-at-commonName=greenClient), RDNSequence item: 1 item (id-at-commonName=orangeCA.com)
+
+4. Encrypted PreMaster: 770e28c83f06287fa19c1f35de56e535b40c22ab070f677dc19ffa013caf8052d37dfd80…
+generate the shared key
+
+5. Signature: 98a6a814ad59da09b1d7e34577d140c0309efa55a1162e5583c6c661bfc2282394fd3c6b…
+
+6. Cipher Suite: TLS_RSA_WITH_AES_256_CBC_SHA256 (0x003d), no
