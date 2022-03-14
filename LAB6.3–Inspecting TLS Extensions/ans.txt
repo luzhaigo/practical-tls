@@ -1,0 +1,48 @@
+1. Server Name: example.org
+
+2. No
+
+3. Extension: status_request (len=5)
+
+4. Extension: status_request (len=0)
+
+5.
+- good
+- producedAt: 2021-02-23 06:15:02 (UTC)
+- yes
+- CA
+
+6. Server Name: facebook.com
+
+7. yes
+
+8. 0
+
+9. 0
+
+10. Extension: session_ticket (len=0), No
+
+11. Extension: session_ticket (len=0), No
+
+12. 
+- Session Ticket: bbd4ff32545315b1f686a4c4145ce550082c586dafdf9b2419c90de3b4b5e4d092d6751d…
+- STEK
+- servers
+
+13. 9
+
+14. 2
+
+15. 
+- Type, Length, Data
+- bbd4ff
+
+16. No
+
+17. Session ID: c2af7689efe898cb57367e88e614459373fc635833e5d471c8756f1cdf9a1086
+
+18. Session ID: c2af7689efe898cb57367e88e614459373fc635833e5d471c8756f1cdf9a1086
+
+19. 4
+
+20. 1
